@@ -132,7 +132,13 @@ namespace EnVoiture
                     break;
                 case Obstacle.ROUTETROTTOIR:
                     pen = new Pen(Brushes.Blue, 20);
+                    if (orientation == Orientation.NORD || )
+                    {
+                        
+                    }
+                    point2.Offset(0,-10);
                     g.DrawLine(new Pen(Color.Yellow, 30), point1, point2);
+
                     break;
                 default:
                     pen = new Pen(Brushes.Gainsboro, 20);
